@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<addon addon_id="Cake_License" title="Cake\License" version_string="1.0.0 Alpha 1" version_id="1000030" url="https://forumcake.com/" install_callback_class="Cake\License\Install_Controller" install_callback_method="install" uninstall_callback_class="Cake\License\Install_Controller" uninstall_callback_method="uninstall">
+<addon addon_id="Cake_License" title="Cake\License" version_string="1.0.0 Alpha 2" version_id="1000031" url="https://forumcake.com/" install_callback_class="Cake\License\Install_Controller" install_callback_method="install" uninstall_callback_class="Cake\License\Install_Controller" uninstall_callback_method="uninstall">
   <admin_navigation/>
   <admin_permissions/>
   <admin_style_properties/>
@@ -26,9 +26,9 @@
   </optiongroups>
   <permissions/>
   <phrases>
+    <phrase title="cake_license" version_id="1000031" version_string="1.0.0 Alpha 2"><![CDATA[License]]></phrase>
     <phrase title="cake_license_agreement" version_id="1000030" version_string="1.0.0 Alpha 1"><![CDATA[Agreement]]></phrase>
     <phrase title="cake_license_agreement_desc" version_id="1000030" version_string="1.0.0 Alpha 1"><![CDATA[Add a license agreement to your site.]]></phrase>
-    <phrase title="cake_license_agreement_title" version_id="1000030" version_string="1.0.0 Alpha 1"><![CDATA[License Agreement]]></phrase>
     <phrase title="cake_license_buy" version_id="1000030" version_string="1.0.0 Alpha 1"><![CDATA[Buy]]></phrase>
     <phrase title="cake_license_buy_desc" version_id="1000030" version_string="1.0.0 Alpha 1"><![CDATA[Allow visitors and customers to purchase a license.]]></phrase>
     <phrase title="cake_license_salesTax" version_id="1000030" version_string="1.0.0 Alpha 1"><![CDATA[Sales Tax/VAT]]></phrase>
