@@ -24,7 +24,11 @@
       <relation group_id="cake" display_order="100"/>
     </option>
   </optiongroups>
-  <permissions/>
+  <permissions>
+    <permission_groups/>
+    <permissions/>
+    <interface_groups/>
+  </permissions>
   <phrases>
     <phrase title="cake_license" version_id="1000031" version_string="1.0.0 Alpha 2"><![CDATA[License]]></phrase>
     <phrase title="cake_license_agreement" version_id="1000030" version_string="1.0.0 Alpha 1"><![CDATA[Agreement]]></phrase>
