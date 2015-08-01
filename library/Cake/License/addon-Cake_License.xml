@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<addon addon_id="Cake_License" title="Cake\License" version_string="1.0.0 Alpha 2" version_id="1000031" url="https://forumcake.com/" install_callback_class="Cake\License\Install_Controller" install_callback_method="install" uninstall_callback_class="Cake\License\Install_Controller" uninstall_callback_method="uninstall">
-  <admin_navigation/>
-  <admin_permissions/>
+<addon addon_id="Cake_License" title="Cake\License" version_string="1.0.0 Alpha 3" version_id="1000032" url="https://forumcake.com/" install_callback_class="Cake\License\Install_Controller" install_callback_method="install" uninstall_callback_class="Cake\License\Install_Controller" uninstall_callback_method="uninstall">
+  <admin_navigation>
+    <navigation navigation_id="licenses" parent_navigation_id="users" display_order="100" link="" admin_permission_id="license" debug_only="0" hide_no_children="1"/>
+  </admin_navigation>
+  <admin_permissions>
+    <admin_permission admin_permission_id="license" display_order="300"/>
+  </admin_permissions>
   <admin_style_properties/>
   <admin_templates/>
   <admin_template_modifications/>
@@ -12,7 +16,7 @@
   <email_template_modifications/>
   <optiongroups>
     <option option_id="cake_license_modules" edit_format="callback" data_type="array" can_backup="1">
-      <default_value>a:3:{s:9:"Agreement";i:1;s:3:"Buy";i:1;s:8:"SalesTax";i:1;}</default_value>
+      <default_value>a:5:{s:9:"Agreement";i:1;s:3:"Buy";i:1;s:8:"Discount";i:1;s:6:"Extras";i:1;s:8:"SalesTax";i:1;}</default_value>
       <edit_format_params>Cake\Option_Explain::render</edit_format_params>
       <sub_options>*</sub_options>
       <relation group_id="cake" display_order="1"/>
@@ -30,11 +34,19 @@
     <interface_groups/>
   </permissions>
   <phrases>
+    <phrase title="admin_navigation_licenses" version_id="1000032" version_string="1.0.0 Alpha 3"><![CDATA[Licenses]]></phrase>
+    <phrase title="admin_permission_license" version_id="1000032" version_string="1.0.0 Alpha 3"><![CDATA[Manage licenses]]></phrase>
+    <phrase title="cake_cost_x" version_id="1000030" version_string="1.0.0 Alpha 1"><![CDATA[${cost}]]></phrase>
     <phrase title="cake_license" version_id="1000031" version_string="1.0.0 Alpha 2"><![CDATA[License]]></phrase>
     <phrase title="cake_license_agreement" version_id="1000030" version_string="1.0.0 Alpha 1"><![CDATA[Agreement]]></phrase>
     <phrase title="cake_license_agreement_desc" version_id="1000030" version_string="1.0.0 Alpha 1"><![CDATA[Add a license agreement to your site.]]></phrase>
     <phrase title="cake_license_buy" version_id="1000030" version_string="1.0.0 Alpha 1"><![CDATA[Buy]]></phrase>
     <phrase title="cake_license_buy_desc" version_id="1000030" version_string="1.0.0 Alpha 1"><![CDATA[Allow visitors and customers to purchase a license.]]></phrase>
+    <phrase title="cake_license_details" version_id="1000032" version_string="1.0.0 Alpha 3"><![CDATA[details]]></phrase>
+    <phrase title="cake_license_discount" version_id="1000032" version_string="1.0.0 Alpha 3"><![CDATA[Discount]]></phrase>
+    <phrase title="cake_license_discount_desc" version_id="1000032" version_string="1.0.0 Alpha 3"><![CDATA[Add discounts to your licenses and extras.]]></phrase>
+    <phrase title="cake_license_extras" version_id="1000032" version_string="1.0.0 Alpha 3"><![CDATA[Extras]]></phrase>
+    <phrase title="cake_license_extras_desc" version_id="1000032" version_string="1.0.0 Alpha 3"><![CDATA[Allow the purchase of additional features with a license.]]></phrase>
     <phrase title="cake_license_salesTax" version_id="1000030" version_string="1.0.0 Alpha 1"><![CDATA[Sales Tax/VAT]]></phrase>
     <phrase title="cake_license_salesTax_desc" version_id="1000030" version_string="1.0.0 Alpha 1"><![CDATA[Options for processing sales tax/VAT.]]></phrase>
     <phrase title="option_cake_license_productName" version_id="1000030" version_string="1.0.0 Alpha 1"><![CDATA[Product Name]]></phrase>
