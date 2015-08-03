@@ -47,6 +47,8 @@
     <phrase title="cake_license_discount_desc" version_id="1000032" version_string="1.0.0 Alpha 3"><![CDATA[Add discounts to your licenses and extras.]]></phrase>
     <phrase title="cake_license_extras" version_id="1000032" version_string="1.0.0 Alpha 3"><![CDATA[Extras]]></phrase>
     <phrase title="cake_license_extras_desc" version_id="1000032" version_string="1.0.0 Alpha 3"><![CDATA[Allow the purchase of additional features with a license.]]></phrase>
+    <phrase title="cake_license_license" version_id="1000033" version_string="1.0.0 Alpha 4"><![CDATA[License]]></phrase>
+    <phrase title="cake_license_license_desc" version_id="1000033" version_string="1.0.0 Alpha 4"><![CDATA[Allow users to view and manage their licenses.]]></phrase>
     <phrase title="cake_license_salesTax" version_id="1000030" version_string="1.0.0 Alpha 1"><![CDATA[Sales Tax/VAT]]></phrase>
     <phrase title="cake_license_salesTax_desc" version_id="1000030" version_string="1.0.0 Alpha 1"><![CDATA[Options for processing sales tax/VAT.]]></phrase>
     <phrase title="option_cake_license_productName" version_id="1000030" version_string="1.0.0 Alpha 1"><![CDATA[Product Name]]></phrase>
