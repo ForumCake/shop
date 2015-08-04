@@ -16,7 +16,7 @@
   <email_template_modifications/>
   <optiongroups>
     <option option_id="cake_license_modules" edit_format="callback" data_type="array" can_backup="1">
-      <default_value>a:5:{s:9:"Agreement";i:1;s:3:"Buy";i:1;s:8:"Discount";i:1;s:6:"Extras";i:1;s:8:"SalesTax";i:1;}</default_value>
+      <default_value>a:6:{s:9:"Agreement";i:1;s:3:"Buy";i:1;s:8:"Discount";i:1;s:6:"Extras";i:1;s:7:"License";i:1;s:8:"SalesTax";i:1;}</default_value>
       <edit_format_params>Cake\Option_Explain::render</edit_format_params>
       <sub_options>*</sub_options>
       <relation group_id="cake" display_order="1"/>
@@ -42,7 +42,6 @@
     <phrase title="cake_license_agreement_desc" version_id="1000030" version_string="1.0.0 Alpha 1"><![CDATA[Add a license agreement to your site.]]></phrase>
     <phrase title="cake_license_buy" version_id="1000030" version_string="1.0.0 Alpha 1"><![CDATA[Buy]]></phrase>
     <phrase title="cake_license_buy_desc" version_id="1000030" version_string="1.0.0 Alpha 1"><![CDATA[Allow visitors and customers to purchase a license.]]></phrase>
-    <phrase title="cake_license_details" version_id="1000032" version_string="1.0.0 Alpha 3"><![CDATA[details]]></phrase>
     <phrase title="cake_license_discount" version_id="1000032" version_string="1.0.0 Alpha 3"><![CDATA[Discount]]></phrase>
     <phrase title="cake_license_discount_desc" version_id="1000032" version_string="1.0.0 Alpha 3"><![CDATA[Add discounts to your licenses and extras.]]></phrase>
     <phrase title="cake_license_extras" version_id="1000032" version_string="1.0.0 Alpha 3"><![CDATA[Extras]]></phrase>
