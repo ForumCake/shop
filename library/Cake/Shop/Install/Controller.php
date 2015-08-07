@@ -1,5 +1,5 @@
 <?php
-namespace Cake\License;
+namespace Cake\Shop;
 
 class Install_Controller
 {
